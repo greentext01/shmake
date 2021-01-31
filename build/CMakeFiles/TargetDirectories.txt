@@ -1,0 +1,3 @@
+/home/olivier/shmake/build/CMakeFiles/rebuild_cache.dir
+/home/olivier/shmake/build/CMakeFiles/edit_cache.dir
+/home/olivier/shmake/build/CMakeFiles/Shm.dir

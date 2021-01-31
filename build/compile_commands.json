@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/olivier/shmake/build",
+  "command": "/bin/g++   -g -o CMakeFiles/Shm.dir/main.cpp.o -c /home/olivier/shmake/main.cpp",
+  "file": "/home/olivier/shmake/main.cpp"
+},
+{
+  "directory": "/home/olivier/shmake/build",
+  "command": "/bin/g++   -g -o CMakeFiles/Shm.dir/fileReader.cpp.o -c /home/olivier/shmake/fileReader.cpp",
+  "file": "/home/olivier/shmake/fileReader.cpp"
+}
+]

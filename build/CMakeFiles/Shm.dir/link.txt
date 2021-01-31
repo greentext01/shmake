@@ -1,0 +1,1 @@
+/bin/g++ -g CMakeFiles/Shm.dir/main.cpp.o CMakeFiles/Shm.dir/fileReader.cpp.o -o Shm 

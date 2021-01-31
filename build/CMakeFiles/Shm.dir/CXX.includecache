@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/olivier/shmake/fileReader.hpp
+iostream
+-
+fstream
+-
+vector
+-
+
+/home/olivier/shmake/main.cpp
+fileReader.hpp
+/home/olivier/shmake/fileReader.hpp
+unistd.h
+-
+
