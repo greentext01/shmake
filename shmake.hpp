@@ -23,7 +23,6 @@ class Shmake {
     ~Shmake();
     void readFile();
     void execute(string target);
-    void writeFile();
 };
 
 #endif

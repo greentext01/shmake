@@ -46,7 +46,7 @@ void Shmake::execute(string target) {
         switch (currentLine[0]) {
             case ';':
                 outputFileStream << "echo \"--" << currentLine.substr(1)
-                                 << "--\"";
+                                 << "--\"\n";
                 break;
 
             case ':':
@@ -54,7 +54,7 @@ void Shmake::execute(string target) {
                 break;
 
             default:
-                outputFileStream << currentLine.c_str();
+                outputFileStream << currentLine.c_str() + string("\n");
                 break;
         }
     }
