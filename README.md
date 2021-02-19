@@ -46,7 +46,3 @@ Example Shmfile:
 
 :clean
   rm main
-
-:all
-  ,build
-  ,clean
