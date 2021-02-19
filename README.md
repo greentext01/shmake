@@ -51,8 +51,7 @@ Example Shmfile:
 ## Tips:
 Using bash instead of sh:
 ```
-#!/bin/bash
-
-build:
+target:
+  #!/bin/bash
   #Instructions go here
 ```
