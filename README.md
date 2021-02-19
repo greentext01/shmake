@@ -46,3 +46,13 @@ Example Shmfile:
 
 :clean
   rm main
+```
+
+## Tips:
+Using bash instead of sh:
+```
+#!/bin/bash
+
+build:
+  #Instructions go here
+```
