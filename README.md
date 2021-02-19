@@ -31,11 +31,7 @@ Example:
 ```
 ;Building...
 ```
-To execute another target, add "," to the start of the name of the target you want to execute  
-Example:
-```
-,build
-```
+
 To run a shell command, just write the command without anything at the start  
 Example:
 ```
