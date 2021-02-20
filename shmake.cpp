@@ -27,6 +27,7 @@ void Shmake::readFile() {
         }
         contents.push_back(buffer);
     }
+    outputFileStream.close();
 }
 
 int Shmake::findTarget(string target) {
@@ -57,10 +58,6 @@ void Shmake::execute(string target) {
                 outputFileStream << currentLine.c_str() + string("\n");
                 break;
         }
-    }
-
-    if (outputFileStream.is_open()) {
-        outputFileStream.close();
     }
 
     system(outputFileName.c_str());
