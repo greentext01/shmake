@@ -58,7 +58,10 @@ void Shmake::execute(string target) {
                 break;
         }
     }
-    outputFileStream.close();
+
+    if (outputFileStream.is_open()) {
+        outputFileStream.close();
+    }
+
     system(outputFileName.c_str());
-    outputFileStream = ofstream(outputFileName);
 }
